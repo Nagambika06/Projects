@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#btn-container{
+  text-align: center;
+  margin: 30px auto;
+}
+.btn{
+  border: none;
+  /* outline: none; */
+  background-color: purple;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover{
+  background-color: rgb(249, 91, 249);
+}
+
+.month{
+  float: left;
+  width: 50%;
+  padding: 20px;
+  color:black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
