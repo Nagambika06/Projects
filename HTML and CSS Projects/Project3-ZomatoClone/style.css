@@ -1,0 +1,283 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+
+}
+
+main {
+    background-image: url("images/bg-img.avif");
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.nav {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav ul {
+    display: flex;
+    margin-top: 25px;
+    padding-right: 50px;
+
+}
+
+.nav ul li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    padding-right: 50px;
+}
+
+.option {
+    margin-right: 180px;
+}
+
+.logo {
+    height: 70px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo1 {
+    background-image: url("images/logo.avif");
+    width: 330px;
+    height: 69px;
+    background-size: cover;
+}
+
+.content {
+    height: 86px;
+    color: white;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.line2 {
+    padding-left: 120px;
+}
+
+.section1 {
+    height: 50px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 p {
+    font-size: 36px;
+}
+
+.para2 {
+    font-weight: 500;
+}
+
+.section1 img {
+    padding: 0 15px;
+}
+
+.section2 {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+
+
+}
+
+.section2 p {
+    font-size: 25px;
+    color: #696969;
+    padding-bottom: 5px;
+}
+
+.para3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes {
+    margin-top: 40px;
+
+}
+
+.box {
+    width: 300px;
+    height: 65px;
+    border: 0.5px solid rgb(219, 213, 213);
+    box-shadow: 0.5px 0.5px rgb(179, 171, 171);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    color: #1c1c1c;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 150px;
+    row-gap: 30px;
+
+
+}
+
+.grid span {
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+footer {
+    height: 500px;
+    background-color: rgb(245, 244, 244);
+    margin-top: 30px;
+}
+
+.footer-content {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.footer-section1 {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    background-image: url("images/logo2.avif");
+    width: 150px;
+    height: 35px;
+    background-size: contain;
+
+}
+
+.country {
+    height: 40px;
+    width: 110px;
+    border: 0.5px solid rgb(162, 159, 159);
+    border-radius: 5px;
+}
+
+.language {
+    height: 40px;
+    width: 110px;
+    border: 0.5px solid rgb(162, 159, 159);
+    border-radius: 5px;
+
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-right: 10px;
+
+}
+
+.flag {
+    height: 25px;
+    width: 25px;
+    background-image: url("images/flag.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.country p {
+    font-size: 18px;
+    color: #1c1c1c;
+    width: 40px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.footer-section2 {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.footer-section2 ul li {
+    list-style-type: none;
+    margin-top: 5px;
+    color: #696969;
+}
+
+.footer-section2 h3 {
+    color: #000000;
+    font-size: 14px;
+}
+
+
+.social-link i {
+    height: 22px;
+    width: 22px;
+    font-size: 25px;
+}
+
+.social-link {
+    margin-top: 10px;
+}
+
+.app-store {
+    background-image: url("images/appstore.webp");
+    height: 40px;
+    width: 135px;
+    background-size: contain;
+    margin-top: 10px;
+}
+
+.google-play {
+    background-image: url("images/googleplay.webp");
+    height: 40px;
+    width: 135px;
+    background-size: contain;
+    margin-top: 10px;
+}
+
+.footer-section3 {
+    height: 20px;
+    border-top: 0.5px solid rgb(210, 202, 202);
+}
+
+.footer-section3 p {
+    margin-top: 15px;
+    color: #4f4f4f;
+    font-size: 13px;
+}
+
