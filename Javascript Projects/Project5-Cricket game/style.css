@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+h1{
+  background-color: black;
+  color: white;
+  height: 3rem;
+  line-height: 3rem;
+}
+.choices{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+}
+.choice{
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  /* background-color: rgb(238, 182, 182); */
+  
+  /* font-size: 2rem; */
+}
+.choice:hover{
+  border: 3px solid brown;
+
+}
+
+.result-board{
+  margin-top: 50px;
+  font-size: 1.5rem;
+  line-height: 35px;
+  font-weight: 800;
+  
+}
+
+.result{
+    margin-top: 50px;
+
+
+}
+
+.final-result{
+  font-size: 2rem;
+  /* background-color: black; */
+  color: white;
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 5px;
+
+
+}
